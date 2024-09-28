@@ -1,6 +1,6 @@
 baseURL: "https://bennysbytes.dev/"
 title: Benny's Bytes
-paginate: 5
+paginate: 10
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -12,10 +12,16 @@ minify:
   disableXML: true
   minifyOutput: true
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "Benny's Bytes"
-  description: "Benny's Bytes description"
+  description: "Benny's Bytes"
   keywords: [Blog, Ben Vilnis, Benny's Bytes]
   author: "Ben Vilnis"
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -28,7 +34,7 @@ params:
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
-  ShowWordCount: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
@@ -100,7 +106,7 @@ menu:
     - name: Search
       url: search/
       weight: 10
-    - name: About Me
+    - name: CV
       url: "https://cv.bennysbytes.dev"
       weight: 15
 
