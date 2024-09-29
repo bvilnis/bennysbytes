@@ -24,7 +24,6 @@ params:
   description: "Benny's Bytes"
   keywords: [Blog, Ben Vilnis, Benny's Bytes]
   author: "Ben Vilnis"
-  images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -82,9 +81,9 @@ params:
   #     SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   # for search
   # https://fusejs.io/api/options.html
@@ -100,8 +99,8 @@ params:
 
 menu:
   main:
-    - name: Posts
-      url: posts
+    - name: Archive
+      url: archives
       weight: 5
     - name: Search
       url: search/
