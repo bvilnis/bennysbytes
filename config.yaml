@@ -61,8 +61,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hello, friend. \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Hello, friend."
+    Content: "My name is Ben. I'm an engineering manager with a background in DevOps and Site Reliability Engineering. I've been fortunate to work at some great companies and learn from some amazing people. Here's some of the lessons I've learned along the way."
 
   socialIcons:
     - name: linkedin
