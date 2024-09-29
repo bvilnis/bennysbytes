@@ -1,6 +1,6 @@
 baseURL: "https://bennysbytes.dev/"
 title: Benny's Bytes
-paginate: 10
+paginate: 5
 theme: PaperMod
 
 enableRobotsTXT: true
